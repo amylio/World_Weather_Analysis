@@ -2,7 +2,7 @@
 
 ## Overview of World Weather Analysis
 
-The purpose of this project is to collect and present data for the **PLanMyTrip** website based on customer's preferred travel criteria entered into the search page. The results will provide the customer with their ideal hotel and current weather conditions anywhere in the world. 
+The purpose of this project is to collect and present data for the **PlanMyTrip** website based on customer's preferred travel criteria entered into the search page. The results will provide the customer with their ideal hotel and current weather conditions anywhere in the world. 
 
 In order to complete this request, we needed to use Jupyter Notebook and citipy module to obtain a list of random latitudes and longitudes. From there, using OpenWeather API, we retrieved the JSON weather data and added it to a Pandas Dataframe. This information was then used with Google Maps & Places API to build maps based on user's input. This map provided driving/bicycling/walking directions, as well as pop-up markers for hotels in the chosen areas. As practice, we also created heatmaps showing % humidity or % cloudiness.
 
